@@ -251,8 +251,7 @@ The switch icon changes from red to green, but you notice that the light does no
 What happened?
 Perhaps the Switch physical device is faulty or perhaps the device lost communications with your network.
 In any case, the UI performed correctly - it reflected the fact that you sent a command to the Switch Item.
-What the UI did not do is convey the status of the device being switched.
-Of course, this is the correct.
+What the UI did not do is convey the status of the device being switched which is correct.
 As of this point, you do not have any Item in your sitemap that would do this.
 If it is critical that you know that the light came on, you could install a sensor that monitors light level.
 You could then, through the appropriate Binding, reflect light level changes through a Thing to an Item.
